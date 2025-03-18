@@ -1,24 +1,22 @@
 [![python3](https://img.shields.io/badge/python-3.9+-blue.svg)](https://github.com/kaisero/fireREST/) [![pypi](https://img.shields.io/pypi/v/fireREST)](https://pypi.org/project/fireREST/) [![license](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)](https://github.com/kaisero/fireREST/blob/master/LICENSE) [![status](https://img.shields.io/badge/status-beta-blue.svg)](https://github.com/kaisero/fireREST/) [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/kaisero/fireREST)
 
-
-# FireREST
+# FireREST76
 
 FireREST is a python library to interface with Cisco Firepower Management Center REST API. The goal of FireREST is to provide a simple SDK to programmatically interact with FMC.
 
-
 ## Features
 
-* Authentication and automatic session refresh / re-authentication
-* Rate-limit detection and automatic backoff and retry behavior
-* Automatic squashing of paginated api payloads
-* Sanitization of api payloads for create and update operations (automatically remove unsupported elements like links, metadata from payload)
-* Detailed logging of api requests and responses
-* API specific error handling using various custom exceptions for typical errors (e.g. ResourceAlreadyExists, UnprocessAbleEntityError, ...)
-* Support for resource lookup by name instead of uuid for all CRUD operations
+- Authentication and automatic session refresh / re-authentication
+- Rate-limit detection and automatic backoff and retry behavior
+- Automatic squashing of paginated api payloads
+- Sanitization of api payloads for create and update operations (automatically remove unsupported elements like links, metadata from payload)
+- Detailed logging of api requests and responses
+- API specific error handling using various custom exceptions for typical errors (e.g. ResourceAlreadyExists, UnprocessAbleEntityError, ...)
+- Support for resource lookup by name instead of uuid for all CRUD operations
 
 ## Requirements
 
-* Python >= 3.9
+- Python >= 3.9
 
 ## Quickstart
 
@@ -43,7 +41,7 @@ a failed operation. If all 3 refresh tokens have been used up the connection obj
 fmc = FMC(hostname='fmc.example.com', username='firerest', password='Cisco123', domain='Global')
 ```
 
-> **_NOTE:_**  By default domain is set to `Global`
+> **_NOTE:_** By default domain is set to `Global`
 
 ### Authentication (cdFMC/CDO)
 
@@ -68,7 +66,7 @@ net_obj = {
 response = fmc.object.network.create(data=net_obj)
 ```
 
-> **_NOTE:_**  in case a resource supports the `bulk` option `FireREST` will automatically perform a bulk operation if the `data` provided is of type `list`
+> **_NOTE:_** in case a resource supports the `bulk` option `FireREST` will automatically perform a bulk operation if the `data` provided is of type `list`
 
 ##### Get all network objects
 
@@ -93,7 +91,7 @@ net_obj['name'] = 'RenamedNetObjViaAPI'
 response = fmc.object.network.update(data=net_obj)
 ```
 
-> **_NOTE:_**  FireREST automatically extracts the `id` field of the provided data `dict` to update the correct resource.
+> **_NOTE:_** FireREST automatically extracts the `id` field of the provided data `dict` to update the correct resource.
 
 ##### Delete network object
 
@@ -153,6 +151,7 @@ the following CRUD operations:
 │       │       ├── ospfinterface
 │       │       ├── ospfv2route
 │       │       └── policybasedroute
+|       |       |__ ecmp
 │       ├── subinterface
 │       ├── virtualswitch
 │       ├── virtualtunnelinterface
@@ -359,13 +358,13 @@ the following CRUD operations:
 
 ### UnprocessableEntityError
 
-You might see an `UnprocessableEntityError` exception when you try to execute  `CREATE`or `UPDATE` operations. Depending on the API endpoint the error message from FMC might not contain enough information to pinpoint what is causing the issue. In this case I would recommend using `pigtail` on FMC to get more detailed information.
+You might see an `UnprocessableEntityError` exception when you try to execute `CREATE`or `UPDATE` operations. Depending on the API endpoint the error message from FMC might not contain enough information to pinpoint what is causing the issue. In this case I would recommend using `pigtail` on FMC to get more detailed information.
 
 #### Example
 
 In this example we are trying to create an object override, but the field `value` is invalid. The subnet mask chosen is not correct, which will cause the FMC API to respond with an UnprocessAbleEntity error.
 
-````bash
+```bash
 data = {
     "overrides": {
         "parent": {
@@ -381,15 +380,15 @@ data = {
     "id": "00505699-76B7-0ed3-0000-077309525737"
 }
 fmc.object.network.update(data=data)
-````
+```
 
 On FMC we can use the `pigtail` utility to tail the logfile on the Tomcat webserver hosting the REST API. Using this method we can monitor the APIs response and get some additional information on the error
 
-````bash
+```bash
 > expert
 admin@fmc:/Volume/home/admin# sudo su -
 root@fmc:/Volume/home/admin# pigtail TCAT
-````
+```
 
 Here we see that a Java exception has been thrown, indicating that the request failed due an invalid ip address being passed
 
@@ -406,6 +405,7 @@ Oliver Kaiser (oliver.kaiser@outlook.com)
 ## Maintainers
 
 Rafal Chrabaszcz (rchrabas@cisco.com)
+Munib Shah (mushah@cisco.com)
 
 ## License
 

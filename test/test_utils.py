@@ -4,7 +4,7 @@ import pytest
 
 from uuid import uuid4
 
-from fireREST import exceptions, utils
+from fireREST76 import exceptions, utils
 
 
 def test_is_uuid_with_valid_uuid():

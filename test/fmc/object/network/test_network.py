@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from fireREST.fmc.object.network.override import Override
+from fireREST76.fmc.object.network.override import Override
 from test.conftest import STATE
 
 

@@ -5,8 +5,8 @@ import pytest
 import uuid
 
 from test.conftest import STATE
-from fireREST import exceptions as exc
-from fireREST.fmc.policy.accesspolicy.accessrule import AccessRule
+from fireREST76 import exceptions as exc
+from fireREST76.fmc.policy.accesspolicy.accessrule import AccessRule
 
 
 @pytest.fixture(scope='module')

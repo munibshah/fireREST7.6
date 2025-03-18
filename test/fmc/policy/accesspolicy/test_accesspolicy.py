@@ -6,12 +6,12 @@ import uuid
 import packaging
 import pytest
 
-import fireREST.exceptions as exc
-from fireREST.fmc.policy.accesspolicy.accessrule import AccessRule
-from fireREST.fmc.policy.accesspolicy.category import Category
-from fireREST.fmc.policy.accesspolicy.defaultaction import DefaultAction
-from fireREST.fmc.policy.accesspolicy.inheritancesettings import InheritanceSettings
-from fireREST.fmc.policy.accesspolicy.operational import Operational
+import fireREST76.exceptions as exc
+from fireREST76.fmc.policy.accesspolicy.accessrule import AccessRule
+from fireREST76.fmc.policy.accesspolicy.category import Category
+from fireREST76.fmc.policy.accesspolicy.defaultaction import DefaultAction
+from fireREST76.fmc.policy.accesspolicy.inheritancesettings import InheritanceSettings
+from fireREST76.fmc.policy.accesspolicy.operational import Operational
 from test.conftest import STATE
 
 name = STATE['policy']['accesspolicy']['name']

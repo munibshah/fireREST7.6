@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from fireREST.fmc.update.upgradepackage import UpgradePackage
+from fireREST76.fmc.update.upgradepackage import UpgradePackage
 
 
 def test_initialization(fmc):

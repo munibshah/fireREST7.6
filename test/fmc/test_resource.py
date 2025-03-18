@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-import fireREST.exceptions as exc
+import fireREST76.exceptions as exc
 
 from requests.auth import HTTPBasicAuth
 
-from fireREST import defaults
-from fireREST.defaults import API_REFRESH_URL, API_PLATFORM_URL, API_CONFIG_URL
+from fireREST76 import defaults
+from fireREST76.defaults import API_REFRESH_URL, API_PLATFORM_URL, API_CONFIG_URL
 
 
 def test_initialization(fmc, constants):

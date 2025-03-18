@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from fireREST.fmc.object.applicationcategory import ApplicationCategory
+from fireREST76.fmc.object.applicationcategory import ApplicationCategory
 
 
 def test_initialization(fmc):

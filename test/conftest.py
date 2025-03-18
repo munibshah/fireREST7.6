@@ -2,8 +2,8 @@
 
 import pytest
 
-from fireREST import FMC
-from fireREST.fmc import Connection
+from fireREST76 import FMC
+from fireREST76.fmc import Connection
 
 
 STATE = {

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from fireREST.fmc.policy.accesspolicy import AccessPolicy
-from fireREST.fmc.policy.filepolicy import FilePolicy
-from fireREST.fmc.policy.ftdnatpolicy import FtdNatPolicy
-from fireREST.fmc.policy.ftds2svpn import FtdS2sVpn
-from fireREST.fmc.policy.intrusionpolicy import IntrusionPolicy
-from fireREST.fmc.policy.prefilterpolicy import PrefilterPolicy
-from fireREST.fmc.policy.snmpalert import SnmpAlert
-from fireREST.fmc.policy.syslogalert import SyslogAlert
+from fireREST76.fmc.policy.accesspolicy import AccessPolicy
+from fireREST76.fmc.policy.filepolicy import FilePolicy
+from fireREST76.fmc.policy.ftdnatpolicy import FtdNatPolicy
+from fireREST76.fmc.policy.ftds2svpn import FtdS2sVpn
+from fireREST76.fmc.policy.intrusionpolicy import IntrusionPolicy
+from fireREST76.fmc.policy.prefilterpolicy import PrefilterPolicy
+from fireREST76.fmc.policy.snmpalert import SnmpAlert
+from fireREST76.fmc.policy.syslogalert import SyslogAlert
 
 
 def test_initialization(fmc):

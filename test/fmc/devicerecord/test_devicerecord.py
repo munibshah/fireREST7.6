@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 
-from fireREST.fmc.device.devicerecord.bridgegroupinterface import BridgeGroupInterface
-from fireREST.fmc.device.devicerecord.etherchannelinterface import EtherChannelInterface
-from fireREST.fmc.device.devicerecord.fpinterfacestatistics import FpInterfaceStatistics
-from fireREST.fmc.device.devicerecord.fplogicalinterface import FpLogicalInterface
-from fireREST.fmc.device.devicerecord.fpphysicalinterface import FpPhysicalInterface
-from fireREST.fmc.device.devicerecord.inlineset import InlineSet
-from fireREST.fmc.device.devicerecord.interfaceevent import InterfaceEvent
-from fireREST.fmc.device.devicerecord.operational import Operational
-from fireREST.fmc.device.devicerecord.physicalinterface import PhysicalInterface
-from fireREST.fmc.device.devicerecord.redundantinterface import RedundantInterface
-from fireREST.fmc.device.devicerecord.routing import Routing
-from fireREST.fmc.device.devicerecord.subinterface import SubInterface
-from fireREST.fmc.device.devicerecord.virtualswitch import VirtualSwitch
-from fireREST.fmc.device.devicerecord.virtualtunnelinterface import VirtualTunnelInterface
-from fireREST.fmc.device.devicerecord.vlaninterface import VlanInterface
+from fireREST76.fmc.device.devicerecord.bridgegroupinterface import BridgeGroupInterface
+from fireREST76.fmc.device.devicerecord.etherchannelinterface import EtherChannelInterface
+from fireREST76.fmc.device.devicerecord.fpinterfacestatistics import FpInterfaceStatistics
+from fireREST76.fmc.device.devicerecord.fplogicalinterface import FpLogicalInterface
+from fireREST76.fmc.device.devicerecord.fpphysicalinterface import FpPhysicalInterface
+from fireREST76.fmc.device.devicerecord.inlineset import InlineSet
+from fireREST76.fmc.device.devicerecord.interfaceevent import InterfaceEvent
+from fireREST76.fmc.device.devicerecord.operational import Operational
+from fireREST76.fmc.device.devicerecord.physicalinterface import PhysicalInterface
+from fireREST76.fmc.device.devicerecord.redundantinterface import RedundantInterface
+from fireREST76.fmc.device.devicerecord.routing import Routing
+from fireREST76.fmc.device.devicerecord.subinterface import SubInterface
+from fireREST76.fmc.device.devicerecord.virtualswitch import VirtualSwitch
+from fireREST76.fmc.device.devicerecord.virtualtunnelinterface import VirtualTunnelInterface
+from fireREST76.fmc.device.devicerecord.vlaninterface import VlanInterface
 
 
 def test_initialization(fmc):
