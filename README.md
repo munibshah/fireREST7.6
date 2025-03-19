@@ -23,13 +23,13 @@ FireREST is a python library to interface with Cisco Firepower Management Center
 ### Installation
 
 ```bash
-> pip install fireREST
+> pip install firerest76
 ```
 
 ### Import api client
 
 ```python
-from fireREST import FMC
+from fireREST76 import FMC
 ```
 
 ### Authentication (self-hosted)

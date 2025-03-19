@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fireREST76",  # New package name
-    version="1.2.0",  # Keep the same version or update as necessary
+    name="firerest76",  # New package name
+    version="1.2.3",  # Keep the same version or update as necessary
     description="Python API client for Cisco Firepower Management Center (FMC)",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",  # Assuming markdown for README

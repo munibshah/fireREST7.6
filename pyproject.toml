@@ -1,7 +1,8 @@
 [project]
-name = "fireREST76"  # New package name
-version = "1.2.0"
+name = "firerest76"  # New package name
+version = "1.2.3"
 description = "Python API client for Cisco Firepower Management Center (FMC)"
+requires-python = ">=3.12"
 authors = [
     { name = "Oliver Kaiser", email = "oliver.kaiser@outlook.com" },
     { name = "Rafal Chrabaszcz", email = "rchrabas@cisco.com" },
@@ -13,7 +14,6 @@ dependencies = [
     "packaging>=20.3"
 ]
 readme = { file = "README.md", content-type = "text/markdown" }
-python_requires = ">=3.9"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
