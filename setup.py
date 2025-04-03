@@ -19,7 +19,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
-    packages=find_packages(include=["fireREST76", "fireREST76.fmc"]),  # Updated package names
+    packages=find_packages(include=["firerest76", "firerest76.fmc"]),  # Updated package names
     python_requires=">=3.9",
     install_requires=[  # List your dependencies
         "requests>=2.23.0",
