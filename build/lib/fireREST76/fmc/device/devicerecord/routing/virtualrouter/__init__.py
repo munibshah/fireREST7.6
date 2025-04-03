@@ -1,12 +1,12 @@
-from fireREST76.defaults import API_RELEASE_660
-from fireREST76.fmc import ChildResource, Connection
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.bgp import Bgp
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.ipv4staticroute import Ipv4StaticRoute
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.ipv6staticroute import Ipv6StaticRoute
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.ospfinterface import OspfInterface
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.ospfv2route import Ospfv2Route
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.policybasedroute import PolicyBasedRoute
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.ecmp import ecmpzones
+from firerest76.defaults import API_RELEASE_660
+from firerest76.fmc import ChildResource, Connection
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.bgp import Bgp
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.ipv4staticroute import Ipv4StaticRoute
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.ipv6staticroute import Ipv6StaticRoute
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.ospfinterface import OspfInterface
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.ospfv2route import Ospfv2Route
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.policybasedroute import PolicyBasedRoute
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.ecmpzones import EcmpZones
 
 class VirtualRouter(ChildResource):
     CONTAINER_NAME = 'DeviceRecord'
@@ -26,4 +26,4 @@ class VirtualRouter(ChildResource):
         self.ospfinterface = OspfInterface(conn)
         self.ospfv2route = Ospfv2Route(conn)
         self.policybasedroute = PolicyBasedRoute(conn)
-        self.ecmpzones = ecmpzones(conn)
+        self.ecmpzones = EcmpZones(conn)
