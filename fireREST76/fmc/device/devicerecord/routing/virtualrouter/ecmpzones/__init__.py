@@ -2,7 +2,7 @@ from fireREST76.defaults import API_RELEASE_660
 from fireREST76.fmc import NestedChildResource
 
 
-class ecmpzones(NestedChildResource):
+class EcmpZones(NestedChildResource):
     CONTAINER_NAME = 'DeviceRecord'
     CONTAINER_PATH = '/devices/devicerecords/{uuid}'
     CHILD_CONTAINER_NAME = 'VirtualRouter'
