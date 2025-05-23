@@ -1,6 +1,6 @@
 [project]
 name = "firerest76"  # New package name
-version = "1.2.3"
+version = "1.2.6"
 description = "Python API client for Cisco Firepower Management Center (FMC)"
 requires-python = ">=3.12"
 authors = [
