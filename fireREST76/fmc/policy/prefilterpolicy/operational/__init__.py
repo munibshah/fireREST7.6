@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.policy.prefilterpolicy.operational.hitcounts import Hitcount
+from firerest76.fmc import Connection
+from firerest76.fmc.policy.prefilterpolicy.operational.hitcounts import Hitcount
 
 
 class Operational:

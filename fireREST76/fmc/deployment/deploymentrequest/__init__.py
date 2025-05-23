@@ -1,5 +1,5 @@
-from fireREST76.defaults import API_RELEASE_610
-from fireREST76.fmc import Resource
+from firerest76.defaults import API_RELEASE_610
+from firerest76.fmc import Resource
 
 
 class DeploymentRequest(Resource):

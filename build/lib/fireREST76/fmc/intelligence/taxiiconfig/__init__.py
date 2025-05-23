@@ -1,6 +1,6 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.intelligence.taxiiconfig.collection import Collection
-from fireREST76.fmc.intelligence.taxiiconfig.discoveryinfo import DiscoveryInfo
+from firerest76.fmc import Connection
+from firerest76.fmc.intelligence.taxiiconfig.collection import Collection
+from firerest76.fmc.intelligence.taxiiconfig.discoveryinfo import DiscoveryInfo
 
 
 class TaxiiConfig:

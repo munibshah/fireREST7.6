@@ -1,7 +1,7 @@
-from fireREST76.defaults import API_RELEASE_700
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.dnspolicy.allowdnsrule import AllowDnsRule
-from fireREST76.fmc.policy.dnspolicy.blockdnsrule import BlockDnsRule
+from firerest76.defaults import API_RELEASE_700
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.dnspolicy.allowdnsrule import AllowDnsRule
+from firerest76.fmc.policy.dnspolicy.blockdnsrule import BlockDnsRule
 
 
 class DnsPolicy(Resource):

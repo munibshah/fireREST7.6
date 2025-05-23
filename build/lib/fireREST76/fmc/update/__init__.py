@@ -1,9 +1,9 @@
 from typing import Dict
 
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_630, API_RELEASE_670, API_RELEASE_710
-from fireREST76.fmc import Resource
-from fireREST76.fmc.update.upgradepackage import UpgradePackage
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_630, API_RELEASE_670, API_RELEASE_710
+from firerest76.fmc import Resource
+from firerest76.fmc.update.upgradepackage import UpgradePackage
 
 
 class Update(Resource):

@@ -1,9 +1,9 @@
 from typing import Dict
 
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_640, API_RELEASE_710
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.devicecluster.ftddevicecluster.operational import Operational
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_640, API_RELEASE_710
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.devicecluster.ftddevicecluster.operational import Operational
 
 
 class FtdDeviceCluster(Resource):

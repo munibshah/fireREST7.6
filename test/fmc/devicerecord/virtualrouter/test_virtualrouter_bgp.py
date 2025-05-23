@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter.bgp import Bgp
+from firerest76.fmc.device.devicerecord.routing.virtualrouter.bgp import Bgp
 
 
 def test_initialization(fmc):

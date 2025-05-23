@@ -1,6 +1,6 @@
-from fireREST76.defaults import API_RELEASE_700
-from fireREST76.fmc import Resource, Connection
-from fireREST76.fmc.object.dynamicobject.mapping import Mapping
+from firerest76.defaults import API_RELEASE_700
+from firerest76.fmc import Resource, Connection
+from firerest76.fmc.object.dynamicobject.mapping import Mapping
 
 
 class DynamicObject(Resource):

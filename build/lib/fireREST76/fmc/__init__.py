@@ -13,9 +13,9 @@ import urllib3
 from packaging import version
 from requests.auth import HTTPBasicAuth
 
-from fireREST76 import defaults
-from fireREST76 import exceptions as exc
-from fireREST76 import utils
+from firerest76 import defaults
+from firerest76 import exceptions as exc
+from firerest76 import utils
 
 logger = logging.getLogger(__name__)
 logger.addHandler(logging.NullHandler())

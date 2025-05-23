@@ -1,7 +1,7 @@
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_700
-from fireREST76.fmc import Resource, Connection
-from fireREST76.fmc.object.anyconnectcustomattribute.override import Override
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_700
+from firerest76.fmc import Resource, Connection
+from firerest76.fmc.object.anyconnectcustomattribute.override import Override
 
 
 class AnyconnectCustomAttribute(Resource):

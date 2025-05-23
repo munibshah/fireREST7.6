@@ -1,5 +1,5 @@
-from fireREST76.defaults import API_RELEASE_670
-from fireREST76.fmc import Resource
+from firerest76.defaults import API_RELEASE_670
+from firerest76.fmc import Resource
 
 
 class ExternalStorage(Resource):

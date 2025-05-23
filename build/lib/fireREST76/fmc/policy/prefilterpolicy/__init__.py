@@ -1,8 +1,8 @@
-from fireREST76.defaults import API_RELEASE_650
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.prefilterpolicy.defaultaction import DefaultAction
-from fireREST76.fmc.policy.prefilterpolicy.operational import Operational
-from fireREST76.fmc.policy.prefilterpolicy.prefilterrule import PrefilterRule
+from firerest76.defaults import API_RELEASE_650
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.prefilterpolicy.defaultaction import DefaultAction
+from firerest76.fmc.policy.prefilterpolicy.operational import Operational
+from firerest76.fmc.policy.prefilterpolicy.prefilterrule import PrefilterRule
 
 
 class PrefilterPolicy(Resource):

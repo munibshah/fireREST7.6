@@ -1,8 +1,8 @@
-from fireREST76.fmc import Connection, Resource
-from fireREST76.defaults import API_RELEASE_710
-from fireREST76.fmc.chassis.interface import Interface
-from fireREST76.fmc.chassis.networkmodule import NetworkModule
-from fireREST76.fmc.chassis.operational import Operational
+from firerest76.fmc import Connection, Resource
+from firerest76.defaults import API_RELEASE_710
+from firerest76.fmc.chassis.interface import Interface
+from firerest76.fmc.chassis.networkmodule import NetworkModule
+from firerest76.fmc.chassis.operational import Operational
 
 
 class Chassis(Resource):

@@ -1,6 +1,6 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.device.devicerecord.operational.command import Command
-from fireREST76.fmc.device.devicerecord.operational.metric import Metric
+from firerest76.fmc import Connection
+from firerest76.fmc.device.devicerecord.operational.command import Command
+from firerest76.fmc.device.devicerecord.operational.metric import Metric
 
 
 class Operational:

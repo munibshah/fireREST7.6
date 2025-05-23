@@ -1,5 +1,5 @@
-from fireREST76.defaults import API_RELEASE_710
-from fireREST76.fmc import NestedChildResource
+from firerest76.defaults import API_RELEASE_710
+from firerest76.fmc import NestedChildResource
 
 
 class PolicyBasedRoute(NestedChildResource):

@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.devicecluster.ftddevicecluster import FtdDeviceCluster
+from firerest76.fmc import Connection
+from firerest76.fmc.devicecluster.ftddevicecluster import FtdDeviceCluster
 
 
 class DeviceCluster:

@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.devicegroup.devicegrouprecord import DeviceGroupRecord
+from firerest76.fmc import Connection
+from firerest76.fmc.devicegroup.devicegrouprecord import DeviceGroupRecord
 
 
 class DeviceGroup:

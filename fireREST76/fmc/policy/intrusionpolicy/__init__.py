@@ -1,7 +1,7 @@
-from fireREST76.defaults import API_RELEASE_610, API_RELEASE_670
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.intrusionpolicy.intrusionrule import IntrusionRule
-from fireREST76.fmc.policy.intrusionpolicy.intrusionrulegroup import IntrusionRuleGroup
+from firerest76.defaults import API_RELEASE_610, API_RELEASE_670
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.intrusionpolicy.intrusionrule import IntrusionRule
+from firerest76.fmc.policy.intrusionpolicy.intrusionrulegroup import IntrusionRuleGroup
 
 
 class IntrusionPolicy(Resource):

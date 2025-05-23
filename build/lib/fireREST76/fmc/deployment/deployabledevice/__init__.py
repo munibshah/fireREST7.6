@@ -1,7 +1,7 @@
-from fireREST76.defaults import API_RELEASE_610
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.deployment.deployabledevice.deployment import Deployment
-from fireREST76.fmc.deployment.deployabledevice.pendingchanges import PendingChanges
+from firerest76.defaults import API_RELEASE_610
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.deployment.deployabledevice.deployment import Deployment
+from firerest76.fmc.deployment.deployabledevice.pendingchanges import PendingChanges
 
 
 class DeployableDevice(Resource):

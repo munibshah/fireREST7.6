@@ -1,6 +1,6 @@
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_710
-from fireREST76.fmc import Resource
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_710
+from firerest76.fmc import Resource
 
 
 class TunnelStatus(Resource):

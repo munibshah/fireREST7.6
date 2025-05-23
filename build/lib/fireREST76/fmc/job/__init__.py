@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.job.taskstatus import TaskStatus
+from firerest76.fmc import Connection
+from firerest76.fmc.job.taskstatus import TaskStatus
 
 
 class Job:

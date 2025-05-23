@@ -1,9 +1,9 @@
-from fireREST76.defaults import API_RELEASE_623
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.devicehapair.ftddevicehapair.failoverinterfacemacaddressconfig import (
+from firerest76.defaults import API_RELEASE_623
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.devicehapair.ftddevicehapair.failoverinterfacemacaddressconfig import (
     FailoverInterfaceMacAddressConfig,
 )
-from fireREST76.fmc.devicehapair.ftddevicehapair.monitoredinterface import MonitoredInterface
+from firerest76.fmc.devicehapair.ftddevicehapair.monitoredinterface import MonitoredInterface
 
 
 class FtdHAPair(Resource):

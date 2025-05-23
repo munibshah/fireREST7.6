@@ -3,8 +3,8 @@
 import pytest
 
 
-from fireREST76.fmc import Connection
-from fireREST76 import exceptions as exc
+from firerest76.fmc import Connection
+from firerest76 import exceptions as exc
 
 
 @pytest.fixture

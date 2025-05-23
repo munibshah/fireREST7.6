@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.object.operational.usage import Usage
+from firerest76.fmc import Connection
+from firerest76.fmc.object.operational.usage import Usage
 
 
 class Operational:

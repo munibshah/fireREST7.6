@@ -1,20 +1,20 @@
-from fireREST76.defaults import API_RELEASE_610
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.device.devicerecord.bridgegroupinterface import BridgeGroupInterface
-from fireREST76.fmc.device.devicerecord.etherchannelinterface import EtherChannelInterface
-from fireREST76.fmc.device.devicerecord.fpinterfacestatistics import FpInterfaceStatistics
-from fireREST76.fmc.device.devicerecord.fplogicalinterface import FpLogicalInterface
-from fireREST76.fmc.device.devicerecord.fpphysicalinterface import FpPhysicalInterface
-from fireREST76.fmc.device.devicerecord.inlineset import InlineSet
-from fireREST76.fmc.device.devicerecord.interfaceevent import InterfaceEvent
-from fireREST76.fmc.device.devicerecord.operational import Operational
-from fireREST76.fmc.device.devicerecord.physicalinterface import PhysicalInterface
-from fireREST76.fmc.device.devicerecord.redundantinterface import RedundantInterface
-from fireREST76.fmc.device.devicerecord.routing import Routing
-from fireREST76.fmc.device.devicerecord.subinterface import SubInterface
-from fireREST76.fmc.device.devicerecord.virtualswitch import VirtualSwitch
-from fireREST76.fmc.device.devicerecord.virtualtunnelinterface import VirtualTunnelInterface
-from fireREST76.fmc.device.devicerecord.vlaninterface import VlanInterface
+from firerest76.defaults import API_RELEASE_610
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.device.devicerecord.bridgegroupinterface import BridgeGroupInterface
+from firerest76.fmc.device.devicerecord.etherchannelinterface import EtherChannelInterface
+from firerest76.fmc.device.devicerecord.fpinterfacestatistics import FpInterfaceStatistics
+from firerest76.fmc.device.devicerecord.fplogicalinterface import FpLogicalInterface
+from firerest76.fmc.device.devicerecord.fpphysicalinterface import FpPhysicalInterface
+from firerest76.fmc.device.devicerecord.inlineset import InlineSet
+from firerest76.fmc.device.devicerecord.interfaceevent import InterfaceEvent
+from firerest76.fmc.device.devicerecord.operational import Operational
+from firerest76.fmc.device.devicerecord.physicalinterface import PhysicalInterface
+from firerest76.fmc.device.devicerecord.redundantinterface import RedundantInterface
+from firerest76.fmc.device.devicerecord.routing import Routing
+from firerest76.fmc.device.devicerecord.subinterface import SubInterface
+from firerest76.fmc.device.devicerecord.virtualswitch import VirtualSwitch
+from firerest76.fmc.device.devicerecord.virtualtunnelinterface import VirtualTunnelInterface
+from firerest76.fmc.device.devicerecord.vlaninterface import VlanInterface
 
 
 class DeviceRecord(Resource):

@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.devicehapair.ftddevicehapair import FtdHAPair
+from firerest76.fmc import Connection
+from firerest76.fmc.devicehapair.ftddevicehapair import FtdHAPair
 
 
 class DeviceHAPair:

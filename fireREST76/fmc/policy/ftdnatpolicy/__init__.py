@@ -1,8 +1,8 @@
-from fireREST76.defaults import API_RELEASE_623
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.ftdnatpolicy.autonatrule import AutoNatRule
-from fireREST76.fmc.policy.ftdnatpolicy.manualnatrule import ManualNatRule
-from fireREST76.fmc.policy.ftdnatpolicy.natrule import NatRule
+from firerest76.defaults import API_RELEASE_623
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.ftdnatpolicy.autonatrule import AutoNatRule
+from firerest76.fmc.policy.ftdnatpolicy.manualnatrule import ManualNatRule
+from firerest76.fmc.policy.ftdnatpolicy.natrule import NatRule
 
 
 class FtdNatPolicy(Resource):

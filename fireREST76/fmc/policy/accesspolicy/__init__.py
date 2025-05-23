@@ -1,12 +1,12 @@
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_610
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.accesspolicy.accessrule import AccessRule
-from fireREST76.fmc.policy.accesspolicy.category import Category
-from fireREST76.fmc.policy.accesspolicy.defaultaction import DefaultAction
-from fireREST76.fmc.policy.accesspolicy.inheritancesettings import InheritanceSettings
-from fireREST76.fmc.policy.accesspolicy.operational import Operational
-from fireREST76.fmc.policy.accesspolicy.securityintelligencepolicy import SecurityIntelligencePolicy
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_610
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.accesspolicy.accessrule import AccessRule
+from firerest76.fmc.policy.accesspolicy.category import Category
+from firerest76.fmc.policy.accesspolicy.defaultaction import DefaultAction
+from firerest76.fmc.policy.accesspolicy.inheritancesettings import InheritanceSettings
+from firerest76.fmc.policy.accesspolicy.operational import Operational
+from firerest76.fmc.policy.accesspolicy.securityintelligencepolicy import SecurityIntelligencePolicy
 
 
 class AccessPolicy(Resource):

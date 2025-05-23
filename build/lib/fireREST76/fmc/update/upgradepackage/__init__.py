@@ -1,6 +1,6 @@
-from fireREST76.defaults import API_RELEASE_630
-from fireREST76.fmc import Resource
-from fireREST76.fmc.update.upgradepackage.applicabledevice import ApplicableDevice
+from firerest76.defaults import API_RELEASE_630
+from firerest76.fmc import Resource
+from firerest76.fmc.update.upgradepackage.applicabledevice import ApplicableDevice
 
 
 class UpgradePackage(Resource):

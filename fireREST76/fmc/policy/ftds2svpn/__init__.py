@@ -1,9 +1,9 @@
-from fireREST76.defaults import API_RELEASE_630
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.ftds2svpn.advancedsettings import AdvancedSettings
-from fireREST76.fmc.policy.ftds2svpn.endpoint import Endpoint
-from fireREST76.fmc.policy.ftds2svpn.ikesettings import IkeSettings
-from fireREST76.fmc.policy.ftds2svpn.ipsecsettings import IpsecSettings
+from firerest76.defaults import API_RELEASE_630
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.ftds2svpn.advancedsettings import AdvancedSettings
+from firerest76.fmc.policy.ftds2svpn.endpoint import Endpoint
+from firerest76.fmc.policy.ftds2svpn.ikesettings import IkeSettings
+from firerest76.fmc.policy.ftds2svpn.ipsecsettings import IpsecSettings
 
 
 class FtdS2sVpn(Resource):

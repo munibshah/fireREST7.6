@@ -1,14 +1,14 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.device.devicerecord.routing.bgp import Bgp
-from fireREST76.fmc.device.devicerecord.routing.bgpgeneralsettings import BgpGeneralSettings
-from fireREST76.fmc.device.devicerecord.routing.ipv4staticroute import Ipv4StaticRoute
-from fireREST76.fmc.device.devicerecord.routing.ipv6staticroute import Ipv6StaticRoute
-from fireREST76.fmc.device.devicerecord.routing.ospfinterface import OspfInterface
-from fireREST76.fmc.device.devicerecord.routing.ospfv2route import Ospfv2Route
-from fireREST76.fmc.device.devicerecord.routing.ospfv3interface import Ospfv3Interface
-from fireREST76.fmc.device.devicerecord.routing.policybasedroute import PolicyBasedRoute
-from fireREST76.fmc.device.devicerecord.routing.staticroute import StaticRoute
-from fireREST76.fmc.device.devicerecord.routing.virtualrouter import VirtualRouter
+from firerest76.fmc import Connection
+from firerest76.fmc.device.devicerecord.routing.bgp import Bgp
+from firerest76.fmc.device.devicerecord.routing.bgpgeneralsettings import BgpGeneralSettings
+from firerest76.fmc.device.devicerecord.routing.ipv4staticroute import Ipv4StaticRoute
+from firerest76.fmc.device.devicerecord.routing.ipv6staticroute import Ipv6StaticRoute
+from firerest76.fmc.device.devicerecord.routing.ospfinterface import OspfInterface
+from firerest76.fmc.device.devicerecord.routing.ospfv2route import Ospfv2Route
+from firerest76.fmc.device.devicerecord.routing.ospfv3interface import Ospfv3Interface
+from firerest76.fmc.device.devicerecord.routing.policybasedroute import PolicyBasedRoute
+from firerest76.fmc.device.devicerecord.routing.staticroute import StaticRoute
+from firerest76.fmc.device.devicerecord.routing.virtualrouter import VirtualRouter
 
 
 class Routing:

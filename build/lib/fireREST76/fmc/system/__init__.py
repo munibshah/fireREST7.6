@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.system.info import Info
+from firerest76.fmc import Connection
+from firerest76.fmc.system.info import Info
 
 
 class System:

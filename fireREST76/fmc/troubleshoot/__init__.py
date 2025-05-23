@@ -1,5 +1,5 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.troubleshoot.packettracer import PacketTracer
+from firerest76.fmc import Connection
+from firerest76.fmc.troubleshoot.packettracer import PacketTracer
 
 
 class Troubleshoot:

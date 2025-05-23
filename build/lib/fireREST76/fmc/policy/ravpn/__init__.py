@@ -1,8 +1,8 @@
-from fireREST76.defaults import API_RELEASE_700, API_RELEASE_720
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.ravpn.addressassignmentsettings import AddressAssignmentSettings
-from fireREST76.fmc.policy.ravpn.certificatemapsettings import CertificateMapSettings
-from fireREST76.fmc.policy.ravpn.connectionprofile import ConnectionProfile
+from firerest76.defaults import API_RELEASE_700, API_RELEASE_720
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.ravpn.addressassignmentsettings import AddressAssignmentSettings
+from firerest76.fmc.policy.ravpn.certificatemapsettings import CertificateMapSettings
+from firerest76.fmc.policy.ravpn.connectionprofile import ConnectionProfile
 
 
 class RaVpn(Resource):

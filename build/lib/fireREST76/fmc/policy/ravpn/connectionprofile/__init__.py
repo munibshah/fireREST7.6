@@ -1,5 +1,5 @@
-from fireREST76.defaults import API_RELEASE_700, API_RELEASE_720
-from fireREST76.fmc import ChildResource
+from firerest76.defaults import API_RELEASE_700, API_RELEASE_720
+from firerest76.fmc import ChildResource
 
 
 class ConnectionProfile(ChildResource):

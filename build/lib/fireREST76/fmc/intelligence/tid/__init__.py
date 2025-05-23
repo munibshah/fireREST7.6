@@ -1,10 +1,10 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.intelligence.tid.element import Element
-from fireREST76.fmc.intelligence.tid.incident import Incident
-from fireREST76.fmc.intelligence.tid.indicator import Indicator
-from fireREST76.fmc.intelligence.tid.observable import Observable
-from fireREST76.fmc.intelligence.tid.setting import Setting
-from fireREST76.fmc.intelligence.tid.source import Source
+from firerest76.fmc import Connection
+from firerest76.fmc.intelligence.tid.element import Element
+from firerest76.fmc.intelligence.tid.incident import Incident
+from firerest76.fmc.intelligence.tid.indicator import Indicator
+from firerest76.fmc.intelligence.tid.observable import Observable
+from firerest76.fmc.intelligence.tid.setting import Setting
+from firerest76.fmc.intelligence.tid.source import Source
 
 
 class Tid:

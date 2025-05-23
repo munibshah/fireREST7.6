@@ -1,6 +1,6 @@
 [![python3](https://img.shields.io/badge/python-3.9+-blue.svg)](https://github.com/kaisero/fireREST/) [![pypi](https://img.shields.io/pypi/v/fireREST)](https://pypi.org/project/fireREST/) [![license](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)](https://github.com/kaisero/fireREST/blob/master/LICENSE) [![status](https://img.shields.io/badge/status-beta-blue.svg)](https://github.com/kaisero/fireREST/) [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/kaisero/fireREST)
 
-# FireREST76
+# firerest76
 
 FireREST is a python library to interface with Cisco Firepower Management Center REST API. The goal of FireREST is to provide a simple SDK to programmatically interact with FMC.
 
@@ -29,7 +29,7 @@ FireREST is a python library to interface with Cisco Firepower Management Center
 ### Import api client
 
 ```python
-from fireREST76 import FMC
+from firerest76 import FMC
 ```
 
 ### Authentication (self-hosted)

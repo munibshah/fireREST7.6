@@ -1,6 +1,6 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.netmap.host import Host
-from fireREST76.fmc.netmap.vulnerability import Vulnerability
+from firerest76.fmc import Connection
+from firerest76.fmc.netmap.host import Host
+from firerest76.fmc.netmap.vulnerability import Vulnerability
 
 
 class NetMap:

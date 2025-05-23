@@ -1,6 +1,6 @@
-from fireREST76.defaults import API_RELEASE_630
-from fireREST76.fmc import Resource, Connection
-from fireREST76.fmc.object.fqdn.override import Override
+from firerest76.defaults import API_RELEASE_630
+from firerest76.fmc import Resource, Connection
+from firerest76.fmc.object.fqdn.override import Override
 
 
 class Fqdn(Resource):

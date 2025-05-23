@@ -1,16 +1,16 @@
-from fireREST76.fmc import Connection
-from fireREST76.fmc.policy.accesspolicy import AccessPolicy
-from fireREST76.fmc.policy.dnspolicy import DnsPolicy
-from fireREST76.fmc.policy.dynamicaccesspolicy import DynamicAccessPolicy
-from fireREST76.fmc.policy.filepolicy import FilePolicy
-from fireREST76.fmc.policy.ftdnatpolicy import FtdNatPolicy
-from fireREST76.fmc.policy.ftds2svpn import FtdS2sVpn
-from fireREST76.fmc.policy.intrusionpolicy import IntrusionPolicy
-from fireREST76.fmc.policy.networkanalysispolicy import NetworkAnalysisPolicy
-from fireREST76.fmc.policy.prefilterpolicy import PrefilterPolicy
-from fireREST76.fmc.policy.ravpn import RaVpn
-from fireREST76.fmc.policy.snmpalert import SnmpAlert
-from fireREST76.fmc.policy.syslogalert import SyslogAlert
+from firerest76.fmc import Connection
+from firerest76.fmc.policy.accesspolicy import AccessPolicy
+from firerest76.fmc.policy.dnspolicy import DnsPolicy
+from firerest76.fmc.policy.dynamicaccesspolicy import DynamicAccessPolicy
+from firerest76.fmc.policy.filepolicy import FilePolicy
+from firerest76.fmc.policy.ftdnatpolicy import FtdNatPolicy
+from firerest76.fmc.policy.ftds2svpn import FtdS2sVpn
+from firerest76.fmc.policy.intrusionpolicy import IntrusionPolicy
+from firerest76.fmc.policy.networkanalysispolicy import NetworkAnalysisPolicy
+from firerest76.fmc.policy.prefilterpolicy import PrefilterPolicy
+from firerest76.fmc.policy.ravpn import RaVpn
+from firerest76.fmc.policy.snmpalert import SnmpAlert
+from firerest76.fmc.policy.syslogalert import SyslogAlert
 
 
 class Policy:

@@ -1,9 +1,9 @@
 from typing import Dict
 
-from fireREST76 import utils
-from fireREST76.defaults import API_RELEASE_630
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.device.devicerecord import DeviceRecord
+from firerest76 import utils
+from firerest76.defaults import API_RELEASE_630
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.device.devicerecord import DeviceRecord
 
 
 class Device(Resource):

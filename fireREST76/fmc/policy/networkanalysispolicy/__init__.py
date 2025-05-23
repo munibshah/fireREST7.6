@@ -1,7 +1,7 @@
-from fireREST76.defaults import API_RELEASE_700
-from fireREST76.fmc import Connection, Resource
-from fireREST76.fmc.policy.networkanalysispolicy.inspectorconfig import InspectorConfig
-from fireREST76.fmc.policy.networkanalysispolicy.inspectoroverrideconfig import InspectorOverrideConfig
+from firerest76.defaults import API_RELEASE_700
+from firerest76.fmc import Connection, Resource
+from firerest76.fmc.policy.networkanalysispolicy.inspectorconfig import InspectorConfig
+from firerest76.fmc.policy.networkanalysispolicy.inspectoroverrideconfig import InspectorOverrideConfig
 
 
 class NetworkAnalysisPolicy(Resource):

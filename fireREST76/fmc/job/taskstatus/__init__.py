@@ -1,6 +1,6 @@
-from fireREST76.defaults import API_RELEASE_610
-from fireREST76.exceptions import UnsupportedOperationError
-from fireREST76.fmc import Resource
+from firerest76.defaults import API_RELEASE_610
+from firerest76.exceptions import UnsupportedOperationError
+from firerest76.fmc import Resource
 
 
 class TaskStatus(Resource):

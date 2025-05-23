@@ -1,24 +1,24 @@
 # -*- coding: utf-8 -*-
 
-from fireREST76.fmc.assignment import Assignment
-from fireREST76.fmc.audit import Audit
-from fireREST76.fmc.chassis import Chassis
-from fireREST76.fmc.device import Device
-from fireREST76.fmc.devicecluster import DeviceCluster
-from fireREST76.fmc.devicehapair import DeviceHAPair
-from fireREST76.fmc.devicegroup import DeviceGroup
-from fireREST76.fmc.deployment import Deployment
-from fireREST76.fmc.health import Health
-from fireREST76.fmc.integration import Integration
-from fireREST76.fmc.intelligence import Intelligence
-from fireREST76.fmc.job import Job
-from fireREST76.fmc.netmap import NetMap
-from fireREST76.fmc.object import Object
-from fireREST76.fmc.policy import Policy
-from fireREST76.fmc.system import System
-from fireREST76.fmc.troubleshoot import Troubleshoot
-from fireREST76.fmc.update import Update
-from fireREST76.fmc.user import User
+from firerest76.fmc.assignment import Assignment
+from firerest76.fmc.audit import Audit
+from firerest76.fmc.chassis import Chassis
+from firerest76.fmc.device import Device
+from firerest76.fmc.devicecluster import DeviceCluster
+from firerest76.fmc.devicehapair import DeviceHAPair
+from firerest76.fmc.devicegroup import DeviceGroup
+from firerest76.fmc.deployment import Deployment
+from firerest76.fmc.health import Health
+from firerest76.fmc.integration import Integration
+from firerest76.fmc.intelligence import Intelligence
+from firerest76.fmc.job import Job
+from firerest76.fmc.netmap import NetMap
+from firerest76.fmc.object import Object
+from firerest76.fmc.policy import Policy
+from firerest76.fmc.system import System
+from firerest76.fmc.troubleshoot import Troubleshoot
+from firerest76.fmc.update import Update
+from firerest76.fmc.user import User
 
 
 def test_initialization(fmc):
